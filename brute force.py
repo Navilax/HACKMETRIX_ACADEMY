@@ -49,8 +49,6 @@ def login_fuerza_bruta(url, usernames, passwords):
           
           if (
              "My Account" in respuesta.text
-              or f'my-account?id={username}' in location_header
-              or f'my-account?id={username}' in respuesta.text
           ):
             print(f"""
               ⠀⠀⠀⠀⢀⠠⠤⠀⢀⣿⡀
