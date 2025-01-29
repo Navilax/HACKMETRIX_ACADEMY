@@ -17,8 +17,8 @@ def cargar_lista(archivo):
 url_login = "https://0aaf00740488059a8106c1a6008f00a0.web-security-academy.net/login"
 
 #Llamar los archivos de texto de usernames y passwords y asignarles id
-archivo_usernames = "passwords_db.txt"
-archivo_passwords = "usuarios_noborrar.txt"
+archivo_usernames = "usuarios_noborrar.txt"
+archivo_passwords = "passwords_db.txt"
 
 #cargar las listas
 usernames = cargar_lista(archivo_usernames)
